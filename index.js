@@ -3,7 +3,7 @@ const fs = require('fs');
 
 // 画像圧縮
 const MAX_WIDTH = 975;
-const QUALITY = 60;
+const QUALITY = 65;
 
 fs.readdir('src', (err, files) => {
   if (err) throw err;
